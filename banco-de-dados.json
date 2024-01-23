@@ -1,0 +1,69 @@
+{
+  "clientes": [
+    {
+      "id": 1,
+      "nome": "Fulano de Tal",
+      "email": "fulano@example.com",
+      "cpf": "123.456.789-01",
+      "rg": "1234567",
+      "contatos": [
+        {
+          "id": 1,
+          "tipo": "Celular",
+          "ddd": 11,
+          "telefone": 987654321
+        },
+        {
+          "id": 2,
+          "tipo": "Residencial",
+          "ddd": 11,
+          "telefone": 123456789
+        }
+      ],
+      "enderecos": [
+        {
+          "id": 1,
+          "tipo": "Entrega",
+          "cep": "12345-678",
+          "logradouro": "Rua Principal",
+          "numero": 123,
+          "bairro": "Centro",
+          "complemento": "Apto 456",
+          "cidade": "Cidade",
+          "estado": "UF",
+          "referencia": "Próximo ao mercado"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Ciclano da Silva",
+      "email": "ciclano@example.com",
+      "cpf": "987.654.321-00",
+      "rg": "7654321",
+      "contatos": [
+        {
+          "id": 3,
+          "tipo": "Comercial",
+          "ddd": 22,
+          "telefone": 987654987
+        }
+      ],
+      "enderecos": [
+        {
+          "id": 2,
+          "tipo": "Preferencial",
+          "cep": "54321-876",
+          "logradouro": "Avenida Secundária",
+          "numero": 456,
+          "bairro": "Bairro",
+          "complemento": "Casa 789",
+          "cidade": "Outra Cidade",
+          "estado": "UF",
+          "referencia": "Próximo à escola"
+        }
+      ]
+    }
+  ]
+}
+
